@@ -27,7 +27,6 @@ def home():
 def about():
     return render_template('about.html')
 
-
 @app.route('/diabetes')
 def diabetes():
     return render_template('diabetes.html')
